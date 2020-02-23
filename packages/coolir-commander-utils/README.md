@@ -1,1 +1,1 @@
-# mania-utils
+# coolir-commander-utils

@@ -9,7 +9,7 @@
   "registry": "https://registry.npmjs.org",
   "command": {
     "create": {
-      "homepage": "https://github.com/pyramation/mania",
+      "homepage": "https://github.com/coolir/coolir-commander",
       "license": "SEE LICENSE IN LICENSE",
       "access": "restricted"
     },

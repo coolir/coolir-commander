@@ -1,19 +1,16 @@
 {
-  "name": "mania-utils",
+  "name": "coolir-commander-utils",
   "version": "0.1.6",
-  "description": "mania-utils",
+  "description": "coolir-commander-utils",
   "author": "Dan Lynch <pyramation@gmail.com>",
-  "homepage": "https://github.com/coolir/coolir-commander/tree/master/packages/mania-utils#readme",
+  "homepage": "https://github.com/coolir/coolir-commander/tree/master/packages/coolir-commander-utils#readme",
   "license": "SEE LICENSE IN LICENSE",
   "main": "main/index.js",
   "directories": {
     "lib": "src",
     "test": "__tests__"
   },
-  "files": [
-    "main",
-    "assets"
-  ],
+  "files": ["main", "assets"],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/coolir/coolir-commander.git"
