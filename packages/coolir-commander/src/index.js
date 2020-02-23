@@ -1,5 +1,5 @@
 import { prompt } from '@pyramation/prompt';
-import { makeAutocompleteFunctionWithInput } from 'mania-utils';
+import { makeAutocompleteFunctionWithInput } from 'coolir-commander-utils';
 
 export class Prompt {
   constructor(cmds) {

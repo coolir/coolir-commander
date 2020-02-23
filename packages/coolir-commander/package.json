@@ -3,17 +3,14 @@
   "version": "0.3.8",
   "description": "coolir-commander",
   "author": "Dan Lynch <pyramation@gmail.com>",
-  "homepage": "https://github.com/coolir/coolir-commander/tree/master/packages/mania#readme",
+  "homepage": "https://github.com/coolir/coolir-commander/tree/master/packages/coolir-commander#readme",
   "license": "SEE LICENSE IN LICENSE",
   "main": "main/index.js",
   "directories": {
     "lib": "src",
     "test": "__tests__"
   },
-  "files": [
-    "main",
-    "assets"
-  ],
+  "files": ["main", "assets"],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/coolir/coolir-commander.git"
@@ -48,7 +45,7 @@
   "dependencies": {
     "@babel/runtime": "^7.4.2",
     "@pyramation/prompt": "0.0.1",
-    "mania-utils": "^0.1.6",
+    "coolir-commander-utils": "0.1.7",
     "minimist": "1.2.0"
   }
 }
