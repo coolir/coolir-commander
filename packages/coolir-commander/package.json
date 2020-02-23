@@ -1,0 +1,54 @@
+{
+  "name": "coolir-commander",
+  "version": "0.3.7",
+  "description": "coolir-commander",
+  "author": "Dan Lynch <pyramation@gmail.com>",
+  "homepage": "https://github.com/coolir/coolir-commander/tree/master/packages/mania#readme",
+  "license": "SEE LICENSE IN LICENSE",
+  "main": "main/index.js",
+  "directories": {
+    "lib": "src",
+    "test": "__tests__"
+  },
+  "files": [
+    "main",
+    "assets"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/coolir/coolir-commander.git"
+  },
+  "scripts": {
+    "build": "babel src --out-dir main --delete-dir-on-start",
+    "prepare": "yarn build",
+    "lint": "eslint lib --fix",
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "test:debug": "node --inspect node_modules/.bin/jest --runInBand"
+  },
+  "bugs": {
+    "url": "https://github.com/coolir/coolir-commander/issues"
+  },
+  "devDependencies": {
+    "@babel/cli": "7.8.4",
+    "@babel/core": "7.8.4",
+    "@pyramation/babel-preset-env": "^0.0.1",
+    "babel-core": "7.0.0-bridge.0",
+    "eslint": "^6.8.0",
+    "eslint-config-prettier": "^6.10.0",
+    "eslint-config-react-app": "5.2.0",
+    "eslint-plugin-jest": "^23.7.0",
+    "jest": "^25.1.0",
+    "prettier": "^1.16.1",
+    "regenerator-runtime": "^0.13.2"
+  },
+  "peerDependencies": {
+    "@babel/core": "^7.0.0-0"
+  },
+  "dependencies": {
+    "@babel/runtime": "^7.4.2",
+    "@pyramation/prompt": "0.0.1",
+    "mania-utils": "^0.1.6",
+    "minimist": "1.2.0"
+  }
+}

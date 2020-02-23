@@ -1,0 +1,37 @@
+{
+  "name": "coolir-commander",
+  "version": "0.0.1",
+  "publishConfig": {
+    "access": "restricted"
+  },
+  "private": true,
+  "scripts": {
+    "build": "lerna run prepare --parallel",
+    "bootstrap": "lerna bootstrap",
+    "lint": "eslint --ignore-path .gitignore .",
+    "pretest": "yarn lint",
+    "test:watch": "jest --watch",
+    "test": "jest"
+  },
+  "devDependencies": {
+    "@babel/cli": "7.8.4",
+    "@babel/core": "7.8.4",
+    "@pyramation/babel-preset-env": "0.0.1",
+    "@pyramation/prettier": "0.0.1",
+    "babel-core": "7.0.0-bridge.0",
+    "babel-eslint": "10.0.3",
+    "babel-jest": "25.1.0",
+    "eslint": "6.8.0",
+    "eslint-config-react-app": "5.2.0",
+    "jest": "25.1.0",
+    "lerna": "3.20.2",
+    "lint-staged": "10.0.7"
+  },
+  "workspaces": [
+    "packages/*"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/coolir/coolir-commander.git"
+  }
+}
