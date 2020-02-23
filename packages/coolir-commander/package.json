@@ -1,6 +1,6 @@
 {
   "name": "coolir-commander",
-  "version": "0.3.8",
+  "version": "0.3.9",
   "description": "coolir-commander",
   "author": "Dan Lynch <pyramation@gmail.com>",
   "homepage": "https://github.com/coolir/coolir-commander/tree/master/packages/coolir-commander#readme",
@@ -10,7 +10,10 @@
     "lib": "src",
     "test": "__tests__"
   },
-  "files": ["main", "assets"],
+  "files": [
+    "main",
+    "assets"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/coolir/coolir-commander.git"
@@ -45,7 +48,7 @@
   "dependencies": {
     "@babel/runtime": "^7.4.2",
     "@pyramation/prompt": "0.0.1",
-    "coolir-commander-utils": "0.1.7",
+    "coolir-commander-utils": "^0.1.8",
     "minimist": "1.2.0"
   }
 }
