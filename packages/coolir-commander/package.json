@@ -49,6 +49,6 @@
     "@babel/runtime": "^7.4.2",
     "@pyramation/prompt": "0.0.1",
     "coolir-commander-utils": "^0.1.8",
-    "minimist": "1.2.0"
+    "minimist": "1.2.2"
   }
 }
