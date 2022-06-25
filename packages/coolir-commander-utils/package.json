@@ -30,23 +30,23 @@
     "url": "https://github.com/coolir/coolir-commander/issues"
   },
   "devDependencies": {
-    "@babel/cli": "7.8.4",
-    "@babel/core": "7.8.4",
-    "@pyramation/babel-preset-env": "^0.0.1",
+    "@babel/cli": "7.17.10",
+    "@babel/core": "7.18.5",
+    "@pyramation/babel-preset-env": "^0.1.0",
     "babel-core": "7.0.0-bridge.0",
-    "eslint": "^6.8.0",
-    "eslint-config-prettier": "^6.10.0",
-    "eslint-config-react-app": "5.2.0",
-    "eslint-plugin-jest": "^23.7.0",
-    "jest": "^25.1.0",
-    "prettier": "^1.16.1",
-    "regenerator-runtime": "^0.13.2"
+    "eslint": "^8.18.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-config-react-app": "7.0.1",
+    "eslint-plugin-jest": "^26.5.3",
+    "jest": "^28.1.1",
+    "prettier": "^2.7.1",
+    "regenerator-runtime": "^0.13.9"
   },
   "peerDependencies": {
     "@babel/core": "^7.0.0-0"
   },
   "dependencies": {
-    "@babel/runtime": "^7.4.2",
+    "@babel/runtime": "^7.18.3",
     "fuzzy": "0.1.3"
   },
   "gitHead": "60c936e70d455073b9f87bec3dd7a702a2aea776"
